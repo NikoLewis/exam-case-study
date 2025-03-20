@@ -1,42 +1,48 @@
 # exam-case-study
-# Project Title
+# Git Case Study: In-Class Exercise
 
-> A short description about the project and/or client.
+> As a team, you are tasked with recreating the case study that we’ve seen on slides 17-37 in Intro to Git. In teams of 3, you will assume the roles of Eric, Lucy, and Adam. Each team member will recreate the steps that their corresponding roles completed to exercise the following skills:    
+- Using the terminal to run git commands
+- Creating branches
+- Creating new files
+- Add changed files to your commits
+- Resolving merge conflicts
+- Approving merge requests
+- Completing merge requests
+
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+- Log into your Github account
+- Create a new repo 
+- create and then use "develop" branch
+- Add instructional staff as contributers
+- Proceed in following instructions found [here](https://docs.google.com/document/d/1CIUX7DOR30XwlvmGOLBOrOM_NUDHFnyTHdyzXZdvLhk/edit?tab=t.0)
 
 ### Prerequisites
 
-The things you need before installing the software.
+- A github account
 
-- You need this
-- And you need this
-- Oh, and don't forget this
+
 
 ### Installation
 
-A step by step guide that will tell you how to get the development environment up and running.
-
-```
-$ First step
-$ Another step
-$ Final step
-```
+- start a codespaces instance of your repo
 
 ## Usage
 
-A few examples of useful commands and/or tasks.
+Example terminal commands to keep in mind:
 
 ```
-$ First example
-$ Second example
-$ And keep this in mind
+$ git status
+$ git checkout -b [branch name here]
+$ git branch
+$ git switch develop
+$ git config --global commit.template [file template can be found here]
 ```
 ### Branches
 
-* Main:
-* Feature:
-* Bugfix:
-* etc...
+* main
+* develop
+* feature-a
+
